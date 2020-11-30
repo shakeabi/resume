@@ -1,0 +1,138 @@
+backend:
+  name: github
+  branch: master
+  repo: shakeabi/resume
+
+media_folder: "assets/img/uploads"
+
+site_url: https://shakeabi.github.io/resume
+
+collections:
+  - label: "Files"
+    name: files
+    editor:
+      preview: false
+    files:
+      - label: "Global Data"
+        name: globaldata
+        file: "_data/data.yml"
+        fields:
+          - label: "Sidebar"
+            name: "sidebar"
+            widget: "object"
+            fields:
+              - {label: "about", name: "about", widget: "hidden"}
+              - {label: "education - set to False if you want education in main section instead of in sidebar", name: "education", widget: "boolean"}
+              - {label: "name", name: "name", widget: "string"}
+              - {label: "tagline", name: "tagline", widget: "string"}
+              - {label: "avatar", name: "avatar", widget: "string"}
+              - {label: "email", name: "email", widget: "string", required: false}
+              - {label: "phone", name: "phone", widget: "number", required: false}
+              - {label: "website", name: "website", widget: "string", required: false}
+              - {label: "linkedin", name: "linkedin", widget: "string", required: false}
+              - {label: "github", name: "github", widget: "string", required: false}
+              - {label: "telegram", name: "telegram", widget: "string", required: false}
+              - {label: "gitlab", name: "gitlab", widget: "string", required: false}
+              - {label: "bitbucket", name: "bitbucket", widget: "string", required: false}
+              - {label: "twitter", name: "twitter", widget: "string", required: false}
+              - {label: "stack-overflow", name: "stack-overflow", widget: "string", required: false}
+              - {label: "codewars", name: "codewars", widget: "string", required: false}
+              - {label: "goodreads", name: "goodreads", widget: "string", required: false}
+              - label: "languages"
+                label_singular: "language"
+                name: "languages"
+                widget: list
+                fields:
+                  - {label: "idiom", name: "idiom", widget: "string"}
+                  - {label: "level", name: "level", widget: "string"}
+              - label: "interests"
+                label_singular: "interest"
+                name: "interests"
+                widget: list
+                fields:
+                  - {label: "item", name: "item", widget: "string"}
+                  - {label: "link", name: "link", widget: "string", required: false}
+
+          - label: "Career Profile"
+            name: "career-profile"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "summary", name: "summary", widget: "text"}
+
+          - label: "Education"
+            name: "education"
+            label_singular: "education"
+            widget: "list"
+            fields:
+              - {label: "degree", name: "degree", widget: "string"}
+              - {label: "university", name: "university", widget: "string"}
+              - {label: "univ_link", name: "univ_link", widget: "string"}
+              - {label: "time", name: "time", widget: "string"}
+              - {label: "score", name: "score", widget: "string"}
+              - {label: "details", name: "details", widget: "string"}
+          
+          - label: "Experiences"
+            name: "experiences"
+            label_singular: "experience"
+            widget: "list"
+            fields:
+              - {label: "role", name: "role", widget: "string"}
+              - {label: "time", name: "time", widget: "string"}
+              - {label: "company", name: "company", widget: "string"}
+              - {label: "company_link", name: "company_link", widget: "string"}
+              - {label: "details", name: "details", widget: "text"}
+
+          - label: "Projects"
+            name: "projects"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "intro", name: "intro", widget: "string"}
+              - label: "Assignments"
+                name: "assignments"
+                widget: "list"
+                fields:
+                - {label: "title", name: "title", widget: "string"}
+                - {label: "link", name: "link", widget: "string"}
+                - {label: "Description", name: "tagline", widget: "text"}
+          
+          - label: "Publications"
+            name: "publications"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string", required: false}
+              - {label: "intro", name: "intro", widget: "string", required: false}
+              - label: "Papers"
+                name: "papers"
+                widget: "list"
+                fields:
+                - {label: "title", name: "title", widget: "string"}
+                - {label: "link", name: "link", widget: "string"}
+                - {label: "Authors", name: "authors", widget: "string"}
+                - {label: "Conference", name: "conference", widget: "string"}
+
+          - label: "Skills"
+            name: "skills"
+            widget: "object"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - label: "Toolsets"
+                name: "toolset"
+                widget: "list"
+                fields:
+                - {label: "name", name: "name", widget: "string"}
+                - {label: "level - percentage", name: "level", widget: "string"}
+      
+      - label: "Global Settings"
+        name: globalsettings
+        file: "_config.yml"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "url", name: "url", widget: "string"}
+          - {label: "baseurl", name: "baseurl", widget: "string"}
+          - {label: "description", name: "description", widget: "text"}
+          - {label: "theme_skin", name: "theme_skin", widget: "select", options: ["blue", "turquoise", "green", "berry", "orange", "ceramic"]}
+          - {label: "chrome_mobile_color", name: "chrome_mobile_color", widget: "string"}
+          - {label: "analytics", name: "analytics", widget: "string", required: false}
+          - {label: "pdfconvertkey", name: "pdfconvertkey", widget: "string", required: false}
