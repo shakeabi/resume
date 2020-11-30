@@ -1,6 +1,8 @@
 /* ======= Base ======= */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', 'Roboto', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
@@ -115,12 +117,15 @@ p {
             }
         }
         .meta {
-            color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
             margin-top: 0;
+            a{
+                color: rgba(256, 256, 256, 0.6);
+                text-decoration: none;
+            }
         }
-        .time {
+        .time, .score {
             color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;

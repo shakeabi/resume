@@ -10,7 +10,8 @@
     {% for graduation in education %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
-      <h5 class="meta">{{ graduation.university }}</h5>
+      <h5 class="meta"><a href="{{ graduation.univ_link }}" target="_blank">{{ graduation.university }}</a></h5>
+      <div class="score">{{ graduation.score }}</div>
       <div class="time">{{ graduation.time }}</div>
     </div><!--//item-->
     {% endfor %}
@@ -37,7 +38,8 @@
           <div class="time">{{ graduation.time }}</div>
         </div><!--//upper-row-->
 
-        <div class="university">{{ graduation.university }}</div>
+        <div class="university">{{ graduation.university }}<br/><span class="score">{{ graduation.score }}</span></div>
+        
       </div><!--//meta-->
 
       {% if graduation.details %}

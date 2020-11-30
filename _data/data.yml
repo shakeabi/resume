@@ -3,61 +3,56 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Abishake
+    tagline: Software Developer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: abishake.110899@gmail.com
+    phone: +917845330552
+    website: shakeabi.github.io #do not add http://
+    linkedin: abi-shake
+    github: shakeabi
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    download: resume.pdf
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Tamil
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Photography
         link:
 
-      - item: Snowboarding
+      - item: Reading
         link:
 
-      - item: Cooking
+      - item: Gaming
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Highly competent Full-Stack Web Developer with 2+ years' experience developing a wide range of apps for my college and other organizations. Have proven expertise in software development as well. Have understanding of the web-app project lifecycle in-depth and am very capable at all aspects of development from project planning to requirements gathering through to writing and testing code, creating documentation and support. Successfully completed multiple Software Developer Interns in companies like Inkmonk.com and D.E.Shaw & Co.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: B.tech in Computer Science and Engineering
+      university: National Institute of Technology, Tiruchirappalli
+      univ_link: https://www.nitt.edu
+      time: 2017 - 2021
+      score: 9.34/10
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,9 +61,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: High School
+      university: Suguna PIP School
+      univ_link: http://www.sugunapips.in
+      time: 2013 - 2017
+      score: 95.4%
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,113 +75,92 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Software Developer Intern
+      time: April 2020 - June 2020
+      company: D.E.Shaw & Co., Hyderabad, India
+      company_link: https://deshawindia.com
+      details: |
+          - Worked as a member of the Front Office Tech team on an open-ended task that helps in automating FAQ generation.
+          - The app fetches messages from various tech-related slack channels, classifies
+          them into question and answers and stores them, and creates a wiki page as a
+          FAQ.
+          - Used Stanford Core NLP package to classify questions, ELK for storage and
+          Confluence API to create WIKI pages.
+    - role: Software Developer Intern
+      time: May 2019 - July 2019
+      company: Inkmonk.com, Chennai, India
+      company_link: https://inkmonk.com
+      details: |
+        - Worked as a Software Developer Intern. 
+        - Worked on building a custom SVG rendererfor efficientrendering. 
+        - Built a custom platform independent Rich-Text Editor
+    - role: Head of Web Operations
+      time: April 2020 - Present
+      company: Pragyan, NITT, India
+      company_link: https://www.pragyan.org/
+      details: |
+          - **Pragyan, NIT Trichy** is the technical festival of the National Institute of Technology, Tiruchirappalli. Every year, participants from a number of colleges across the country take part in various events conducted as a part of Pragyan, making it one of the largest techno-managerial fests in India. 
+          - It is also the first student-run organisation in the world and the third overall, next only to the London Olympics and Manchester United to get an **ISO 20121:2012** certification for Sustainable Event Management.
+          - As the Head of the Web Operations team, my resposibilities include developing and maintaining various sites pertaining to the event and managing the development of 5 major events.
+
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: Aug 2018 - Present
+      company: Delta Force, NITT, India
+      company_link: http://delta.nitt.edu
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Core Member of the programming club of NIT Trichy.
+        - Developed web applications forinstitute development like hall booking portal,
+          Department Site, Cultural and Technical fests site and responsible for handling
+          maintenance of institution site.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      The complete list of my projects can be found here: <a href="https://github.com/shakeabi" target="_blank">Github</a>
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Beer Factory
+        link: "https://www.pragyan.org/20/projects"
+        tagline: "A turn based managerial game aims to test the players on their resource management skills built for Pragyan - The International TechFest of NITT with more than 600 registrations forthe game. Worked on Django Backend and React,Redux frontend"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Festember
+        link: "https://festember.com"
+        tagline: "Part of the team which developed the Festember website which used a Content Management System developed by Delta Force (Github). Worked on both frontend and backend for a chat module for Quality Management Team in Festember."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Livcricket
+        link: "https://github.com/shakeabi/livcricket"
+        tagline: "A fancy cricket CLI made using React-Ink. Scraps scores from espncricinfo and displays through regular notifications."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Formonk
+        link: "https://github.com/shakeabi/formonk"
+        tagline: "A simple form builder to create and publish dynamic forms. Made using React and Flask."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    # title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    # papers:
+    #   - title: The Art of Computer Programming
+    #     link: "#"
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript & ReactJS
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: PHP & Laravel
+        level: 70%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C++
+        level: 75%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
