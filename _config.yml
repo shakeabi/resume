@@ -1,36 +1,20 @@
-#Update all the sections by editing the data.yml file inside _data folder.
-
-# Site Settings
-title: Abishake's Resume
-url: 'https://shakeabi.github.io'
-baseurl: '/resume' #change it according to your repository name
-description: A beautiful Jekyll theme for creating resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: 4B6A78 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
-
-# Tracker
-analytics: 
-
-# HTMLtoPDF Key from https://www.html2pdfrocket.com/
-pdfconvertkey: 60f51d12-e2e9-4eee-8413-afef533a9469
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# Build settings
-compress-site: yes
-
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
+port: 4000
+analytics: null
+host: 0.0.0.0
+compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Development Settings
-port: 4000
-host: 0.0.0.0
+chrome_mobile_color: 4B6A78
 safe: false
+sass:
+  sass_dir: _sass
+  style: compressed
+url: https://shakeabi.github.io
+compress-site: yes
+encoding: utf-8
+title: Abishake's Resume
+baseurl: /resume
+description: Abishake's Resume :)
+theme_skin: ceramic
+pdfconvertkey: 60f51d12-e2e9-4eee-8413-afef533a9469
