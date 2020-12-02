@@ -148,7 +148,7 @@ skills:
   toolset:
     - name: Python & Django
       level: 80%
-    - name: Javascript & ReactJS
+    - name: Javascript, ReactJS, NodeJS
       level: 80%
     - name: PHP & Laravel
       level: 70%
