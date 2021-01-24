@@ -136,7 +136,7 @@ projects:
         in Festember.
     - title: Livcricket
       link: https://github.com/shakeabi/livcricket
-      tagline: A fancy cricket CLI made using React-Ink. Scraps scores from
+      tagline: A fancy cricket CLI made using React-Ink. Scrapes scores from
         espncricinfo and displays through regular notifications.
     - title: Formonk
       link: https://github.com/shakeabi/formonk
