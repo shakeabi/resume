@@ -68,6 +68,13 @@ education:
         - Bullet point
         - Bullet point
 experiences:
+  - role: Member Technical
+    time: 2021 - Present
+    company: D.E.Shaw & Co., Hyderabad, India
+    company_link: https://deshawindia.com
+    details: "- Working as a primary developer in Python Infra, developing and
+      maintaining a plethora of packages that serve as a base in building
+      advanced financial applications."
   - role: Software Developer Intern
     time: April 2020 - June 2020
     company: D.E.Shaw & Co., Hyderabad, India
@@ -117,13 +124,6 @@ experiences:
       - Developed web applications forinstitute development like hall booking portal,
         Department Site, Cultural and Technical fests site and responsible for handling
         maintenance of institution site.
-  - role: Member Technical
-    time: 2021 - Present
-    company: D.E.Shaw & Co., Hyderabad, India
-    company_link: https://deshawindia.com
-    details: "- Working as a primary developer in Python Infra, developing and
-      maintaining a plethora of packages that serve as a base in building
-      advanced financial applications."
 projects:
   title: Projects
   intro: >
