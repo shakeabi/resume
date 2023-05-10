@@ -21,9 +21,13 @@ sidebar:
   avatar: profile.jpeg
   languages:
     - idiom: English
-      level: Professional
+      level: Full Professional Proficiency
     - idiom: Tamil
       level: Native
+    - idiom: Hindi
+      level: Limited Working Proficiency
+    - idiom: Korean
+      level: Elementary Proficiency
   gitlab: null
   website: shakeabi.github.io
   email: abishake.110899@gmail.com
